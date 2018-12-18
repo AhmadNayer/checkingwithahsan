@@ -86,7 +86,8 @@ function axes1_CreateFcn(hObject, eventdata, handles)
 % hObject    handle to axes1 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    empty - handles not created until after all CreateFcns called
-
+x=1:0.01:100;
+plot(x)
 % Hint: place code in OpeningFcn to populate axes1
 
 
@@ -96,5 +97,6 @@ function axes2_CreateFcn(hObject, eventdata, handles)
 % hObject    handle to axes2 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    empty - handles not created until after all CreateFcns called
-
+x=1:0.01:100;
+plot(x)
 % Hint: place code in OpeningFcn to populate axes2
